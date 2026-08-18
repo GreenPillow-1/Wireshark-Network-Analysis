@@ -40,7 +40,7 @@ dns
 - Confirmed DNS response packets returning associated IPv4 addresses.
 - Verified that DNS traffic used UDP port 53.
 
-![DNS traffic analysis](screenshots/DNS.png)
+![DNS traffic analysis](screenshots/DNS)
 
 ### 2. TLS / SNI Analysis
 
@@ -59,7 +59,7 @@ tls
 - Confirmed the Server Name Indication (SNI) value as `chatgpt.com`.
 - Demonstrated that TLS encrypts the web-session content while selected connection metadata can remain observable.
 
-![TLS SNI analysis](screenshots/tls.png)
+![TLS SNI analysis](screenshots/tls)
 
 ### 3. IPv4 Conversation Review
 
@@ -78,7 +78,7 @@ Statistics → Conversations → IPv4
 - Correlated expected external services with DNS query and TLS SNI evidence.
 - Recorded unfamiliar external connections as items that would require further investigation in a SOC workflow.
 
-![IPv4 conversations](screenshots/ipv4.png)
+![IPv4 conversations](screenshots/ipv4)
 
 ## Key Skills Demonstrated
 
